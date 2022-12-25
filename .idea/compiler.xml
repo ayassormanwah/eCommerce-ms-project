@@ -11,8 +11,8 @@
         <module name="customer-service" />
         <module name="gateway-service" />
         <module name="security-service" />
+        <module name="eureka-discovery-service" />
         <module name="order-service" />
-        <module name="discovery-service" />
         <module name="Inventory-service" />
         <module name="billing-service" />
       </profile>
@@ -21,7 +21,7 @@
       <module name="billing-service" target="17" />
       <module name="config-service" target="17" />
       <module name="customer-service" target="17" />
-      <module name="discovery-service" target="17" />
+      <module name="eureka-discovery-service" target="17" />
       <module name="gateway-service" target="17" />
       <module name="Inventory-service" target="17" />
       <module name="order-service" target="17" />
@@ -34,7 +34,7 @@
       <module name="billing-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
-      <module name="discovery-service" options="-parameters" />
+      <module name="eureka-discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="security-service" options="-parameters" />
